@@ -327,6 +327,13 @@
   - UnderwearBottomPantiesChef
 
 - type: loadoutGroup
+  id: ChefHand
+  name: loadout-group-chef-hand
+  minLimit: 0
+  loadouts:
+  - ChefGoldenKnife  
+
+- type: loadoutGroup
   id: LibrarianJumpsuit
   name: loadout-group-librarian-jumpsuit
   loadouts:
@@ -1378,7 +1385,6 @@
 - type: loadoutGroup
   id: DetectiveOuterClothing
   name: loadout-group-detective-outerclothing
-  minLimit: 0
   loadouts:
   - DetectiveArmorVest
   - DetectiveCoat
@@ -1694,6 +1700,8 @@
   loadouts:
   - ReporterJumpsuit
   - JournalistJumpsuit
+  - ReporterJumpskirt
+  - JournalistJumpskirt
 
 - type: loadoutGroup
   id: PsychologistJumpsuit
